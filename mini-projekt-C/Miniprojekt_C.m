@@ -13,7 +13,7 @@ N = length(samples);
 freq_res = f_sample/N;
 
 %Tid
-x= linspace(1,N/f_sample,N)
+x= linspace(1,N/f_sample,N);
 
 %Fjernelse af DC offset
 DC_offset = mean(samples);
